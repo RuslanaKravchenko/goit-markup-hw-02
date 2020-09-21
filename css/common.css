@@ -1,0 +1,81 @@
+:root {
+  --primary-text-color: #757575;
+  --title-texy-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --accent-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-color);
+}
+
+.primary {
+  color: var(--title-texy-color);
+}
+
+.secondary {
+  color: var(--primary-white-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-texy-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts-link {
+  color: var(--primary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--accent-bg-color);
+}
+
+.address {
+  color: var(--primary-white-color);
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}

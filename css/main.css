@@ -1,0 +1,34 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста (цвет заголовков) #212121 */
+/* акцент #2196F3 */
+/* цвет ссылок в адресе rgba(255, 255, 255, 0.6) */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет акцентов фота #2F303A */
+
+/* Hero */
+
+.hero-wrapper {
+  background-color: var(--accent-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-texy-color);
+}
+
+/* Features */
+
+.features-list .title {
+  color: var(--title-texy-color);
+}
+
+/* Our team */
+
+.team-list .title {
+  color: var(--title-texy-color);
+}
