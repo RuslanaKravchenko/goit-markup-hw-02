@@ -1,11 +1,3 @@
-/* цвет основного текста #757575 */
-/* вторичный цвет текста (цвет заголовков) #212121 */
-/* акцент #2196F3 */
-/* цвет ссылок в адресе rgba(255, 255, 255, 0.6) */
-/* основной цвет фона #FFFFFF */
-/* вторичный цвет фона #F5F4FA */
-/* цвет акцентов фота #2F303A */
-
 /* Hero */
 
 .hero-wrapper {
@@ -14,21 +6,56 @@
 
 .hero-title {
   color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-wrapper .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
 .section-title {
-  color: var(--title-texy-color);
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* Features */
 
 .features-list .title {
-  color: var(--title-texy-color);
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Our team */
 
 .team-list .title {
-  color: var(--title-texy-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-list .position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-bg {
+  background-color: var(--secondary-bg-color);
 }

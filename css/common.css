@@ -1,6 +1,14 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста (цвет заголовков) #212121 */
+/* акцент #2196F3 */
+/* цвет ссылок в адресе rgba(255, 255, 255, 0.6) */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет акцентов фота #2F303A */
+
 :root {
   --primary-text-color: #757575;
-  --title-texy-color: #212121;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
@@ -9,24 +17,29 @@
 
 body {
   background-color: var(--primary-white-color);
+
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 /* Logo */
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .primary {
-  color: var(--title-texy-color);
+  color: var(--title-text-color);
 }
 
 .secondary {
@@ -38,12 +51,18 @@ a {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
 }
 
 /* Site nav */
 
 .site-nav .link {
-  color: var(--title-texy-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -59,6 +78,11 @@ a {
 
 .contacts-link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts-link:hover,
@@ -74,8 +98,14 @@ footer {
 
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .address .link {
   color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
